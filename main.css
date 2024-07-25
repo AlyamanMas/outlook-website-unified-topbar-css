@@ -1,0 +1,16 @@
+@-moz-document domain("outlook.office.com") {
+#RibbonRoot > div {
+    display: flex;
+    width: 100%;
+}
+
+#RibbonRoot #TopBar {
+    width: 16rem;
+}
+
+#RibbonRoot #BottomBar {
+    width: 100%;
+    position: relative;
+    left: -1.7rem;
+}
+}
